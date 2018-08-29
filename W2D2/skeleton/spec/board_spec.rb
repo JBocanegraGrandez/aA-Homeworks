@@ -1,7 +1,7 @@
 require 'rspec'
 require 'board'
 require 'spec_helper'
-
+require "byebug"
 describe Board do
   subject(:board) do
     Board.new("Erica", "James")
